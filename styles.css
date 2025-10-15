@@ -121,6 +121,13 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid var(--primary-color);
 }
 
+.nav-logo-text {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ffffff; /* হালকা ব্যাকগ্রাউন্ডে dark রঙ দাও */
+  margin-left: 8px;
+}
+
 .nav-menu {
     display: flex;
     gap: 1.5rem;

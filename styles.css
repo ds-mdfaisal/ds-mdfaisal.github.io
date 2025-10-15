@@ -40,7 +40,7 @@ body {
 }
 @media (max-width: 768px) {
   body {
-    padding-top: 80px; /* mobile */
+    padding-top: 60px; /* mobile */
   }
 }
 
@@ -167,32 +167,6 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     cursor: pointer;
 }
-
-/* Mobile Title (Visible only on mobile) */
-.nav-mobile-title {
-  display: none;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--primary-color);
-}
-
-/* Show only on mobile */
-@media (max-width: 768px) {
-  .nav-mobile-title {
-    display: block;
-    text-align: center;
-    flex: 1;
-  }
-
-  .nav-logo {
-    flex: 0;
-  }
-
-  .nav-toggle {
-    flex: 0;
-  }
-}
-
 
 .bar {
     width: 25px;

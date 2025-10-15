@@ -40,7 +40,7 @@ body {
 }
 @media (max-width: 768px) {
   body {
-    padding-top: 70px; /* mobile */
+    padding-top: 65px; /* mobile */
   }
 }
 

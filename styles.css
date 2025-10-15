@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Title (Visible only on mobile) */
 .nav-mobile-title {
   display: none;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--primary-color);
 }

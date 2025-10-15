@@ -123,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-logo-text {
   font-weight: 600;
-  font-size: 1.2rem;
-  color: #ffffff; /* হালকা ব্যাকগ্রাউন্ডে dark রঙ দাও */
+  font-size: 1.0rem;
+  color: #2125BE; /* হালকা ব্যাকগ্রাউন্ডে dark রঙ দাও */
   margin-left: 8px;
 }
 

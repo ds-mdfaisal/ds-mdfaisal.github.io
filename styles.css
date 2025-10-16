@@ -239,6 +239,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondary);
     margin-bottom: 2rem;
     line-height: 1.2;
+    text-align: justify;
 }
 
 .hero-description em {

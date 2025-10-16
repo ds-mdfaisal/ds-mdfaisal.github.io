@@ -962,6 +962,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
     margin-bottom: 0.8rem;
     font-size: 0.85rem;
+    text-align: justify;
 }
 
 .project-card h3 {

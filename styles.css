@@ -133,15 +133,15 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-    @media (max-width: 768px) {
-    .nav-mobile-title {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: var(--primary-color);
-        }
+@media (max-width: 768px) {
+  .nav-mobile-title {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+    flex-grow: 1; /* For Center */
+  }
 }
 
 

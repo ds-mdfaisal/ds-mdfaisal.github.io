@@ -1188,6 +1188,7 @@ h1, h2, h3, h4, h5, h6 {
 .education-courses p {
     color: var(--text-secondary);
     line-height: 1.3;
+    text-align: justify;
 }
 
 /* Certifications Section */

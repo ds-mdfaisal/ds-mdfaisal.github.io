@@ -130,9 +130,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu {
     display: flex;
-    flex-wrap: wrap; /* Wrap on smaller screens */
-    gap: 1.5rem;    /* Space between links */
-    justify-content: center; /* Center links */
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .nav-link {
@@ -168,14 +167,6 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
     flex-direction: column;
     cursor: pointer;
-}
-
-/* Responsive: Mobile */
-@media (max-width: 768px) {
-    .nav-menu {
-        flex-direction: column; /* Vertical menu */
-        gap: 1rem;
-    }
 }
 
 .bar {

@@ -212,7 +212,16 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .hero-content {
+        grid-template-columns: 1fr; /* mobile */
+        gap: 2rem;
+    }
+}
 
+.hero-text {
+    padding: 0 1rem; /* mobile friendly */
+}
 
 .hero-title {
     font-size: 3.5rem;

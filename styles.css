@@ -1236,11 +1236,8 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     border-radius: 12px;
     padding: 1.2rem;
-    box-shadow: var(--shadow-light);
-    transition: all 0.3s ease;
-    border: 1px solid rgba(120, 119, 198, 0.1);
-    position: relative;
-    overflow: hidden;
+    box-shadow: var(--shadow-light);transition: var(--transition);
+    border-left: 4px solid var(--primary-color);
 }
 
 .certification-item::before {

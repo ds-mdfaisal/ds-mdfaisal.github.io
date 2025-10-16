@@ -241,6 +241,15 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+.hero-description em {
+  font-style: italic;
+  color: #333;
+}
+
+.hero-description strong {
+  color: var(--primary-color);
+}
+
 .hero-stats {
     display: flex;
     gap: 2rem;

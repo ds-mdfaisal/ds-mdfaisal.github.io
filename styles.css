@@ -203,10 +203,6 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
-.hero-section {
-    margin-bottom: 3rem; /* space before next section */
-}
-
 .hero::before {
     content: '';
     position: absolute;
@@ -1427,6 +1423,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
     text-align: left;
     min-height: 80px;
+    border-left: 4px solid var(--primary-color);    
 }
 
 .contact-item:hover {

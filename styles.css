@@ -1231,7 +1231,8 @@ h1, h2, h3, h4, h5, h6 {
     background: white;
     border-radius: 12px;
     padding: 1.2rem;
-    box-shadow: var(--shadow-light);transition: var(--transition);
+    box-shadow: var(--shadow-light);
+    transition: var(--transition);
     border-left: 4px solid var(--primary-color);
 }
 
@@ -1424,6 +1425,22 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     min-height: 80px;
     border-left: 4px solid var(--primary-color);    
+}
+
+.contact-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-primary);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover::before {
+    transform: scaleX(1);
 }
 
 .contact-item:hover {

@@ -634,8 +634,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .highlight-item {
     display: flex;
-    align-items: flex-start;
-    gap: 1.2rem;
+    flex-direction: column;
+    gap: 0.8rem;
     padding: 1.5rem;
     background: var(--background-secondary);
     border-radius: 12px;
@@ -652,7 +652,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    margin-bottom: 0.5rem;
 }
 
 .icon-title i {
@@ -674,8 +673,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
     text-align: justify;
 }
-
-
 
 
 /* Publications Section */

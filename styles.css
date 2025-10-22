@@ -232,32 +232,33 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
   }
 
-  /* Flex order for left-right alignment */
-  .nav-toggle {
-    display: flex;
-    order: 1; /* Left */
-    cursor: pointer;
-    flex-direction: column;
-    gap: 4px;
-  }
+/* Hamburger Icon (Mobile) */
+.nav-toggle {
+  display: flex;
+  order: 1;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 2px;
+}
 
-  .nav-toggle .bar {
-    width: 25px;
-    height: 3px;
-    background: var(--primary-color);
-    transition: 0.3s;
-  }
+.nav-toggle .bar {
+  width: 20px;
+  height: 2.5px;
+  background: var(--primary-color);
+  transition: 0.3s;
+  border-radius: 2px;
+}
 
   .nav-mobile-title {
-    order: 2; /* Middle */
+    order: 2;
   }
 
   .nav-icon.mobile-only {
-    order: 3; /* Right */
+    order: 3;
   }
 
   .nav-icon.mobile-only i {
-    font-size: 2rem; /* আগের থেকে বড় */
+    font-size: 2rem;
     color: var(--primary-color);
   }
 

@@ -256,6 +256,11 @@ h1, h2, h3, h4, h5, h6 {
     order: 3; /* Right */
   }
 
+  .nav-icon.mobile-only i {
+    font-size: 2rem; /* আগের থেকে বড় */
+    color: var(--primary-color);
+  }
+
   /* Mobile menu dropdown */
   .nav-menu {
     position: absolute;

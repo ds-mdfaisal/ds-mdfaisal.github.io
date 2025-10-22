@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   order: 1;
   cursor: pointer;
   flex-direction: column;
-  gap: 2px;
+  gap: 1px;
 }
 
 .nav-toggle .bar {

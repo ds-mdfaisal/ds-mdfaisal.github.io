@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 /* MOBILE VIEW */
 @media (max-width: 768px) {
 
-  /* Show only on mobile */
+  /* Show mobile-only items */
   .mobile-only {
     display: inline-block;
   }
@@ -236,6 +236,16 @@ h1, h2, h3, h4, h5, h6 {
   .nav-toggle {
     display: flex;
     order: 1; /* Left */
+    cursor: pointer;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .nav-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background: var(--primary-color);
+    transition: 0.3s;
   }
 
   .nav-mobile-title {
@@ -245,10 +255,28 @@ h1, h2, h3, h4, h5, h6 {
   .nav-icon.mobile-only {
     order: 3; /* Right */
   }
+
+  /* Mobile menu dropdown */
+  .nav-menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.98);
+    flex-direction: column;
+    gap: 0;
+    display: none; /* hide by default */
+  }
+
+  .nav-menu.active {
+    display: flex; /* show when active */
+  }
+
+  .nav-link {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+  }
 }
-
-
-
 
 
 /* Hero Section */

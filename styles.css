@@ -1547,7 +1547,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
 }
@@ -1570,9 +1570,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 1.2rem;
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 

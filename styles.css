@@ -145,15 +145,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Github Right Coner */
+/* Mobile GitHub Icon (Right Corner) */
 .mobile-only {
   display: none;
 }
 
+/* Show only on mobile view */
 @media (max-width: 768px) {
   .mobile-only {
-    display: inline-block; /* অথবা flex / block — তোমার ডিজাইনের ওপর নির্ভর করবে */
+    display: inline-block; /* or flex if needed */
   }
 }
+
+.nav-icon i {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-icon i:hover {
+  color: var(--secondary-color);
+  transform: scale(1.1);
+}
+
 
 
 

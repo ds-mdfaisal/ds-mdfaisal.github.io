@@ -144,6 +144,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Mobile Github Right Coner */
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: inline-block; /* অথবা flex / block — তোমার ডিজাইনের ওপর নির্ভর করবে */
+  }
+}
+
+
+
+
+
+
+
 
 .nav-menu {
     display: flex;

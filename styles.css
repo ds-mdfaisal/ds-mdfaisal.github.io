@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    width: 80%;
+    width: 75%;
     max-width: 300px;
     padding: 12px 18px;
     box-sizing: border-box;

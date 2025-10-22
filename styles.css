@@ -1129,6 +1129,29 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.8rem;
 }
 
+.project-buttons {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.project-buttons .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.project-buttons .btn:hover {
+  background-color: var(--secondary-color);
+}
+
 
 /* Achievements Section */
 .achievements {
